@@ -1,0 +1,12 @@
+(defkeywords (repeat-with fun n elem) (:coll :default '[])
+  (if (<= n 0)
+    coll
+    (repeat (sub1 n) elem :coll (fun coll elem))))
+
+(defkeywords (repeat n elem) (:coll :default '[])
+  (repeat-with ++ n elem coll))
+; (define repeat (curry repeat-with ++))
+
+(defkeywords (repeat* n elem) (:coll :default '[])
+ (repeat-with += n elem coll))
+; (define repeat* (curry repeat-with +=))
