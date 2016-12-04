@@ -1,0 +1,5 @@
+(module "hello"
+  (export
+    (list "world" world))
+
+  (world (lambda () "Hello World!")))

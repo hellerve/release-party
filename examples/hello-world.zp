@@ -1,0 +1,4 @@
+(define (hello-world)
+  (write (++ "Hello " "World!")))
+
+(hello-world)
