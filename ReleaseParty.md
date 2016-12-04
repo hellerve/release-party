@@ -31,7 +31,7 @@
 -> ## Naïveté
 - If there is a simple way, do it that way
 - If there is a trade-off between complexity and features,
-  aim for less features
+  aim for fewer features
 
 
 -> Example:
@@ -57,7 +57,7 @@
 
 -> # Core values
 
--> ## Friendlyness
+-> ## Friendliness
 - We make mistakes
 - We admit mistakes
 - We fix mistakes
