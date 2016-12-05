@@ -1,0 +1,14 @@
+Everyone knew Lisp was doomed a few years back. Then Clojure came along and
+changed the rules, renewing the interest in Lisp in an industry context.
+
+zepto never believed in that truism to begin with. A small, Scheme-like
+language with clear-cut goals and great ambitions, it has been eating most
+of our free time and some of our hair for the larger part of the last two
+years. Now the project, while far from being complete, has reached a point
+where we want to present it to a larger audience, in the hope that this
+steps instills a dialogue and maybe even provides inspiration for some
+of the attendees of how they would like programming to look and feel.
+
+We've released version 0.9.6 - the first stable version - a few weeks back,
+and we want you to celebrate with us! Come many and merry, for we are very
+much looking forward to introduce you into the world we have created.
