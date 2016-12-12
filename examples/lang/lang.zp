@@ -1,0 +1,17 @@
+(define (handle acc arg)
+  (if (nil? arg)
+    acc
+    (cond
+      ((number? arg) (cons arg acc))
+      ((or (eq? + arg) (eq? * arg))
+        (let ((res (arg (car acc) (cadr acc))))
+          (cons res (drop 2 acc)))))))
+
+(define (handle-args . args)
+  (reduce handle [] args))
+
+(define (stacker inpt)
+  (let ((lines (cdr (string:split inpt #\newline))))
+    `((,handle-args ,@(map string:parse lines)))))
+
+(zepto:implements-lang stacker "stacker")
