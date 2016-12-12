@@ -83,6 +83,16 @@
 
 ---
 
+-> # Caveats
+
+- It is buggy, but stable enough for a public alpha
+  - If something breaks, do not stay silent! Tell us!
+- Documentation is somewhat abominable
+  - Better with zeps, still pretty bad
+- Working programs should be considered incidental rather than by design
+
+---
+
 -> # Thanks.
 
 -> # You've been great.
