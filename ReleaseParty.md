@@ -15,9 +15,7 @@
 
 ~~~~ {#mycode .scheme}
 (define (transpose idx elem inpt)
-  "inserts an element <par>elem</par> into a collection
-   <par>inpt</par> at index <par>idx</par>. Collapses
-   nesting."
+  "transpose elem into the input collection inpt at index idx"
   (let (((before after) (split-at idx inpt)))
     (++ before elem after)))
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
